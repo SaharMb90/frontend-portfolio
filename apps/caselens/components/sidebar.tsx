@@ -2,7 +2,7 @@
 import * as React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import type { Dictionary, Locale } from '@repo/i18n/src';
+import type { Dictionary, Locale } from '@/i18n';
 
 export function Sidebar({ locale, t }: { locale: Locale; t: Dictionary }) {
   const pathname = usePathname();

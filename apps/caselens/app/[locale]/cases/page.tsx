@@ -1,8 +1,8 @@
 'use client';
 import * as React from 'react';
-import { Card, Badge } from '@repo/ui/src';
-import { mockCases, type CaseStatus } from '@repo/mock-data/src';
-import { dictionaries } from '@repo/i18n/src';
+import { Card, Badge } from '@/components/ui';
+import { mockCases, type CaseStatus } from '@/mock-data';
+import { dictionaries } from '@/i18n';
 import { StatusBadge } from '../../../components/status-badge';
 
 const statuses: CaseStatus[] = ['open', 'investigating', 'resolved', 'closed'];

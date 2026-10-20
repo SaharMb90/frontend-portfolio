@@ -1,5 +1,5 @@
-import { Badge } from '@repo/ui/src/components/badge';
-import type { Dictionary } from '@repo/i18n/src';
+import { Badge } from '@/components/ui/badge';
+import type { Dictionary } from '@/i18n';
 
 export function statusTone(s: string): 'info' | 'warning' | 'success' | 'neutral' | 'danger' {
   return s === 'open' ? 'info' : s === 'investigating' ? 'warning' : s === 'resolved' || s === 'active' ? 'success' : s === 'revoked' ? 'danger' : 'neutral';

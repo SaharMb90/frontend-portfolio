@@ -1,5 +1,5 @@
-import { Topbar } from '@repo/ui/src/components/topbar';
-import { locales } from '@repo/i18n/src';
+import { Topbar } from '@/components/topbar';
+import { locales } from '@/i18n';
 
 export function PageHeader({ locale, title }: { locale: 'en' | 'fa'; title: string }) {
   return (

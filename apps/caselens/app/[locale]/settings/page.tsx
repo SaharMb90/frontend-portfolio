@@ -1,7 +1,7 @@
 'use client';
 import * as React from 'react';
-import { Card, Button } from '@repo/ui/src';
-import { dictionaries } from '@repo/i18n/src';
+import { Card, Button } from '@/components/ui';
+import { dictionaries } from '@/i18n';
 
 export default function SettingsPage({ params }: { params: { locale: 'en' | 'fa' } }) {
   const locale = params.locale;

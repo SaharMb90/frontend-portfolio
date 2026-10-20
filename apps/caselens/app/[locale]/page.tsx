@@ -1,6 +1,6 @@
-import { Card, Badge } from '@repo/ui/src';
-import { mockKpis, mockAnomalies } from '@repo/mock-data/src';
-import { dictionaries } from '@repo/i18n/src';
+import { Card, Badge } from '@/components/ui';
+import { mockKpis, mockAnomalies } from '@/mock-data';
+import { dictionaries } from '@/i18n';
 import { PageHeader } from '../../components/page-header';
 
 const severityTone = { critical: 'danger', high: 'warning', medium: 'info', low: 'neutral' } as const;

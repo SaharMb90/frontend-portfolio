@@ -20,14 +20,8 @@
       }
     ],
     "paths": {
-      "@repo/ui/*": [
-        "../../packages/ui/src/*"
-      ],
-      "@repo/mock-data/*": [
-        "../../packages/mock-data/src/*"
-      ],
-      "@repo/i18n/*": [
-        "../../packages/i18n/src/*"
+      "@/*": [
+        "./*"
       ]
     }
   },

@@ -1,8 +1,8 @@
 import type { ReactNode } from 'react';
 import { notFound } from 'next/navigation';
-import { ThemeProvider } from '@repo/ui/src/components/theme-provider';
+import { ThemeProvider } from '@/components/theme-provider';
 import { Sidebar } from '../../components/sidebar';
-import { dictionaries, isLocale, dir } from '@repo/i18n/src';
+import { dictionaries, isLocale, dir } from '@/i18n';
 
 export default async function LocaleLayout({ children, params }: { children: ReactNode; params: { locale: string } }) {
   if (!isLocale(params.locale)) notFound();

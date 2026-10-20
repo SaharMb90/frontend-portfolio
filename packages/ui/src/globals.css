@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{--bg:#ffffff;--fg:#0a0a0a;--muted:#71717a;--border:#e4e4e7;--card:#ffffff;--primary:#2563eb;--primary-fg:#ffffff;--danger:#dc2626;--warn:#d97706;--ok:#16a34a}
+.dark{--bg:#09090b;--fg:#fafafa;--muted:#a1a1aa;--border:#27272a;--card:#111113;--primary:#3b82f6;--primary-fg:#ffffff;--danger:#ef4444;--warn:#f59e0b;--ok:#22c55e}
+*{box-sizing:border-box;border-color:var(--border)}
+body{background:var(--bg);color:var(--fg);font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;margin:0}
+html[dir="rtl"] body{font-family:Tahoma,ui-sans-serif,system-ui,sans-serif}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1rem}
+.input{width:100%;background:transparent;border:1px solid var(--border);border-radius:8px;padding:.55rem .75rem;color:var(--fg)}
+.input:focus{outline:2px solid var(--primary)}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:start;padding:.6rem .75rem;border-bottom:1px solid var(--border)}
